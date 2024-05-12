@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>AI object detection app</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+      
+        <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+        
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="script.js"></script>
+    </head>
+    <body background="Object-detection-Real-world-applications-and-benefits.png">
+        <center>
+            <h1 class="heading">AI Object Detection Web App
+                <br>
+                <div id="spanholdier">
+                    <span class="note">Note: Enter any object's name, and see if the AI can detect that object on the webcam.</span>
+                </div>
+                <br><br>
+                <button onclick="start()" class="btn btn-success start">Start</button>
+                <br><br>
+                <input type="text" id="reswq"></input>
+                <span class="btn btn-info hold"><h2 class="btn btn-warning" id="status">Status no objects found</h2><h2 id="whatitis" class="btn btn-danger"></h2></span>
+            </h1>
+        </center>
+    </body>
+</html>

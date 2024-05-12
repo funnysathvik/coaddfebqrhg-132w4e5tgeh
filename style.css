@@ -1,0 +1,30 @@
+body{
+    background-size: cover;
+}
+
+.heading{
+    background-image: linear-gradient(red,white);
+    margin-top: 0;
+    height: 70px;
+}
+.note{
+    font-size: 20px;
+    margin-bottom: 20px;
+    bottom: 10;
+}
+
+#spanholdier{
+    background-color: orange;
+    width: max-content;
+    right: 10px;
+    left: 100px;
+    border-radius: 10px;
+}
+.hold{
+    width: fit-content;
+    height: fit-content;
+}
+
+canvas{
+    border-radius: 10px;
+}
